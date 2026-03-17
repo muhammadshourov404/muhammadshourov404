@@ -220,7 +220,7 @@
     </tr>
   </table>
   <br>
-  <p style="color:#888888; font-size:14px; font-family:monospace;"><i>[!] Links are currently cloaked. Add your actual profile URLs in the source when ready.</i></p>
+  <p style="color:#888888; font-size:14px; font-family:monospace;"><i>[!] Legends Never Die .</i></p>
 </div>
 
 <hr style="border:1px dashed #8B0000; margin: 30px 0;">
