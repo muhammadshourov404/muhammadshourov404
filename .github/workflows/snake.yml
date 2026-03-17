@@ -1,10 +1,10 @@
-name: Generate Contribution Snake (Vampire Theme)
+name: Generate Matrix-Red Contribution Snake
 
 on:
   schedule:
-    # প্রতি ১২ ঘণ্টা পরপর (00:00 এবং 12:00 UTC)
-    - cron: "0 */12 * * *"
-  workflow_dispatch:          # ম্যানুয়ালি রান করার অপশন
+    # প্রতি ৬ ঘণ্টা পরপর (ঘন ঘন আপডেট চাইলে ০ */6 * * *)
+    - cron: "0 */6 * * *"
+  workflow_dispatch:          # ম্যানুয়ালি রান করার বাটন
   push:
     branches:
       - main
@@ -12,44 +12,48 @@ on:
       - 'README.md'           # README চেঞ্জ হলে অপ্রয়োজনীয় রান না হয়
 
 permissions:
-  contents: write           # আউটপুট ব্রাঞ্চে পুশ করার জন্য দরকার
+  contents: write             # output ব্রাঞ্চে পুশ করার জন্য দরকারী
 
 jobs:
-  generate:
-    name: Generate Snake Animation - Vampire Red Theme
+  generate-snake:
+    name: Build Matrix-Red Snake Animation
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 8
 
     steps:
-      # রিপোজিটরি চেকআউট
-      - name: Checkout repository
+      - name: Checkout Repository
         uses: actions/checkout@v4
 
-      # Snake জেনারেট করা (Platane/snk v3)
-      - name: Generate GitHub Contribution Snake
+      - name: Generate Snake SVGs - Matrix Red Theme
         uses: Platane/snk@v3
+        id: snake
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            output/github-contribution-grid-snake.svg
-            output/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=8B0000,FF0000,FF4500,DC143C,FFFFFF
-            output/github-contribution-grid-snake-vampire.svg?color_snake=8B0000,FF0000,FF4500,DC143C,000000&color_dots=0a0a0a,1a0000,2a0000,4a0000,8B0000,FF0000,FF4500
+            output/github-snake-matrix-red.svg?color_snake=8B0000,FF0000,FF4500,DC143C,FFFFFF&color_dots=0a0a0a,1a0000,2a0000,4a0000,8B0000,FF0000,FF4500
+            output/github-snake-dark.svg?palette=github-dark
+            output/github-snake-vampire.svg?color_snake=8B0000,DC143C,FF0000,FF4500,FFFFFF&color_dots=000000,0a0a0a,1a0000,2a0000,4a0000,8B0000,FF0000
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # আউটপুট ফাইলগুলোকে output ব্রাঞ্চে পুশ করা
-      - name: Deploy snake files to output branch
+      - name: Check if Snake Generation Succeeded
+        if: steps.snake.outcome == 'failure'
+        run: |
+          echo "Snake generation failed! Check logs above."
+          exit 1
+
+      - name: Deploy Snake Files to output Branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
           build_dir: output
-          commit_message: "chore: update contribution snake animation [ci skip]"
-          fqdn: ""  # custom domain না থাকলে খালি রাখো
+          commit_message: "chore: update matrix-red contribution snake [skip ci]"
+          fqdn: ""                  # custom domain না থাকলে খালি
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # ক্যাশ ক্লিয়ার (অপশনাল, কিন্তু স্টেবল রাখতে ভালো)
-      - name: Cleanup workflow artifacts
-        if: always()
+      - name: Workflow Summary
         run: |
-          echo "Workflow completed - snake files pushed to output branch"
+          echo "Matrix-Red Snake generated successfully!"
+          echo "Files pushed to output branch:"
+          ls -la output/
