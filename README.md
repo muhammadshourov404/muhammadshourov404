@@ -6,7 +6,7 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=900&size=32&pause=600&color=FF0000&center=true&vCenter=true&width=1100&lines=[+] INITIALIZING_VAMPIRE_OS_v13.37...;[+] BYPASSING_GITHUB_FIREWALL...;[+] INJECTING_ROOTKIT_INTO_README...;[+] DECRYPTING_MAINFRAME...;[+] ACCESS_GRANTED_TO_SHOUROV_TERMINAL...;[!] THREAT_LEVEL_CRITICAL_-_BLUE_TEAM_ON_HIGH_ALERT;[+] ALL_SYSTEMS_COMPROMISED..._STANDBY_FOR_ORDERS." alt="Typing Animation" />
 </div>
 
-<br>
+<br><br><br>
 
 <div align="center">
   <table style="border:4px solid #8B0000; background:#0a0a0a; border-collapse:collapse; width:95%; margin:auto; box-shadow:0 0 30px #FF0000;">
@@ -43,7 +43,7 @@
   </table>
 </div>
 
-<br>
+<br><br>
 
 <div align="center">
   <img src="https://img.shields.io/badge/ENTERING_THE_MATRIX-8B0000?style=for-the-badge&logo=the-matrix&logoColor=FF0000&labelColor=000000" alt="Matrix Badge" />
@@ -82,10 +82,10 @@
 <div align="center">
   <table style="width:100%; border:3px solid #8B0000; background:#0a0a0a; color:#FFFFFF; border-collapse:collapse; box-shadow:0 0 20px rgba(255,0,0,0.1);">
     <tr style="background:#1a0000;">
-      <th style="padding:15px; font-size:16px; color:#DC143C; border-bottom:2px solid #8B0000;">⚔️ OFFENSIVE TOOLS</th>
-      <th style="padding:15px; font-size:16px; color:#DC143C; border-bottom:2px solid #8B0000;">🛡️ DEFENSIVE TOOLS</th>
-      <th style="padding:15px; font-size:16px; color:#DC143C; border-bottom:2px solid #8B0000;">🔍 RECON & OSINT</th>
-      <th style="padding:15px; font-size:16px; color:#DC143C; border-bottom:2px solid #8B0000;">💻 SCRIPTING & DEV</th>
+      <th style="padding:15px; font-size:16px; color:#DC143C; border-bottom:2px solid #8B0000;"><img src="https://img.shields.io/badge/OFFENSIVE_TOOLS-FF0000?style=for-the-badge" alt="Offensive Icon" /></th>
+      <th style="padding:15px; font-size:16px; color:#DC143C; border-bottom:2px solid #8B0000;"><img src="https://img.shields.io/badge/DEFENSIVE_TOOLS-00FF00?style=for-the-badge" alt="Defensive Icon" /></th>
+      <th style="padding:15px; font-size:16px; color:#DC143C; border-bottom:2px solid #8B0000;"><img src="https://img.shields.io/badge/RECON_OSINT-FFFF00?style=for-the-badge" alt="Recon Icon" /></th>
+      <th style="padding:15px; font-size:16px; color:#DC143C; border-bottom:2px solid #8B0000;"><img src="https://img.shields.io/badge/SCRIPTING_DEV-14354C?style=for-the-badge" alt="Scripting Icon" /></th>
     </tr>
     <tr>
       <td style="padding:20px; vertical-align:top; text-align:center; border-right:1px solid #8B0000;">
@@ -163,6 +163,16 @@
       <td style="padding:15px; color:#FFFFFF; text-align:center;">Bugcrowd / HackerOne</td>
       <td style="padding:15px; color:#00FF00; text-align:center;">Vulnerability Researcher</td>
       <td style="padding:15px; color:#4A90E2; text-align:center;"><a href="#" style="color:#FF4500;">View Profile</a></td>
+    </tr>
+    <tr>
+      <td style="padding:15px; color:#FFFFFF; text-align:center;">Certified Ethical Hacker (CEH)</td>
+      <td style="padding:15px; color:#00FF00; text-align:center;">v12 Certified</td>
+      <td style="padding:15px; color:#4A90E2; text-align:center;"><a href="#" style="color:#FF4500;">View Credential</a></td>
+    </tr>
+    <tr>
+      <td style="padding:15px; color:#FFFFFF; text-align:center;">Offensive Security Certified Professional (OSCP)</td>
+      <td style="padding:15px; color:#00FF00; text-align:center;">In Progress</td>
+      <td style="padding:15px; color:#4A90E2; text-align:center;"><a href="#" style="color:#FF4500;">View Progress</a></td>
     </tr>
   </table>
   <br>
