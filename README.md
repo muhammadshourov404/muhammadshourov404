@@ -248,9 +248,6 @@
   <img src="https://github-profile-trophy.vercel.app/?username=muhammadshourov404&theme=radical&no-frame=true&margin-w=15&row=1&column=7&title_color=FF0000" width="48%" alt="GitHub Trophies" />
 </div>
 
-<div align="center" style="margin-top:15px;">
-  <img src="https://raw.githubusercontent.com/muhammadshourov404/muhammadshourov404/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Contribution Snake" />
-</div>
 
 <br>
 
