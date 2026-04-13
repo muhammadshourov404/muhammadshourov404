@@ -243,7 +243,78 @@ Clean. Simple. Effective.
 
 ### `[ AUTO-SYNCED REPOSITORIES ]`
 <!-- PINNED_REPOS_START -->
-> 🤖 *This section auto-updates via GitHub Actions — new public repos appear here automatically.*
+> 🤖 *Auto-synced — 2026-04-13 12:44 UTC*
+
+<table><tr>
+<td width="50%" valign="top">
+
+**[VampireSentinel](https://github.com/muhammadshourov404/VampireSentinel)**
+
+VampireSentinel — Real-Time OSINT & Reconnaissance Platform | Powered by Vampire Protocol
+
+![Stars](https://img.shields.io/badge/⭐-3-00ff41?style=flat-square&labelColor=0d1117)
+![Forks](https://img.shields.io/badge/🍴-0-00bfff?style=flat-square&labelColor=0d1117)
+![Lang](https://img.shields.io/badge/Lang-JavaScript-ffffff?style=flat-square&labelColor=0d1117)
+
+</td>
+<td width="50%" valign="top">
+
+**[VS-Encrypt-Elite](https://github.com/muhammadshourov404/VS-Encrypt-Elite)**
+
+VS-Encrypt-Elite is a professional-grade Any Source code (.py/.sh/.txt.html/.js/.json/etc) obfuscation tool featuring AES-256 military-grade encryption, auto-healing dependency fix, and a responsive UI for both Termux and Linux. Developed by Vampire Squad.
+
+![Stars](https://img.shields.io/badge/⭐-3-00ff41?style=flat-square&labelColor=0d1117)
+![Forks](https://img.shields.io/badge/🍴-1-00bfff?style=flat-square&labelColor=0d1117)
+![Lang](https://img.shields.io/badge/Lang-Python-ffffff?style=flat-square&labelColor=0d1117)
+
+</td>
+</tr><tr>
+<td width="50%" valign="top">
+
+**[BookCraft](https://github.com/muhammadshourov404/BookCraft)**
+
+No description.
+
+![Stars](https://img.shields.io/badge/⭐-0-00ff41?style=flat-square&labelColor=0d1117)
+![Forks](https://img.shields.io/badge/🍴-0-00bfff?style=flat-square&labelColor=0d1117)
+![Lang](https://img.shields.io/badge/Lang-JavaScript-ffffff?style=flat-square&labelColor=0d1117)
+
+</td>
+<td width="50%" valign="top">
+
+**[compressx](https://github.com/muhammadshourov404/compressx)**
+
+No description.
+
+![Stars](https://img.shields.io/badge/⭐-0-00ff41?style=flat-square&labelColor=0d1117)
+![Forks](https://img.shields.io/badge/🍴-0-00bfff?style=flat-square&labelColor=0d1117)
+![Lang](https://img.shields.io/badge/Lang-JavaScript-ffffff?style=flat-square&labelColor=0d1117)
+
+</td>
+</tr><tr>
+<td width="50%" valign="top">
+
+**[darktales](https://github.com/muhammadshourov404/darktales)**
+
+No description.
+
+![Stars](https://img.shields.io/badge/⭐-0-00ff41?style=flat-square&labelColor=0d1117)
+![Forks](https://img.shields.io/badge/🍴-0-00bfff?style=flat-square&labelColor=0d1117)
+![Lang](https://img.shields.io/badge/Lang-JavaScript-ffffff?style=flat-square&labelColor=0d1117)
+
+</td>
+<td width="50%" valign="top">
+
+**[nurapp](https://github.com/muhammadshourov404/nurapp)**
+
+🕌 Islamic App - নামাজ, কোরআন, দোয়া। 
+
+![Stars](https://img.shields.io/badge/⭐-0-00ff41?style=flat-square&labelColor=0d1117)
+![Forks](https://img.shields.io/badge/🍴-0-00bfff?style=flat-square&labelColor=0d1117)
+![Lang](https://img.shields.io/badge/Lang-JavaScript-ffffff?style=flat-square&labelColor=0d1117)
+
+</td>
+</tr></table>
 <!-- PINNED_REPOS_END -->
 
 </div>
