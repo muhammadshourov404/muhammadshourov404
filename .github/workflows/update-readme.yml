@@ -1,0 +1,42 @@
+name: 🧛 Vampire Profile Auto-Update
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'   # প্রতি ৬ ঘণ্টায় অটো আপডেট
+  push:
+    branches: [main]
+  workflow_dispatch:          # হাতে চালানোর জন্য
+
+jobs:
+  update-readme:
+    name: Update README with Latest Repos
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: 🔓 Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: 🐍 Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 📦 Install Dependencies
+        run: pip install requests pyyaml
+
+      - name: 🤖 Run Repo Sync Script
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USERNAME: muhammadshourov404
+        run: python .github/scripts/update_repos.py
+
+      - name: 💾 Commit & Push Changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "Vampire Bot 🧛"
+          git add README.md
+          git diff --quiet && git diff --staged --quiet || \
+            git commit -m "🔄 Auto-sync: Updated repo list [$(date '+%Y-%m-%d %H:%M')]"
+          git push
