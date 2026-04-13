@@ -1,0 +1,51 @@
+# ============================================================
+#  VAMPIRE PROFILE CONFIG
+#  কোন repo দেখাবে, কোনটি হাইড করবে — এখান থেকে নিয়ন্ত্রণ করুন
+# ============================================================
+
+# ✅ সর্বোচ্চ কতটি repo README তে দেখাবে
+max_repos: 6
+
+# ✅ এই repo গুলো সবসময় দেখাবে (pin করা)
+pinned:
+  - trox
+  - webtrix
+  - quicktools
+  - toolzen
+
+# ❌ এই repo গুলো README তে কখনো দেখাবে না
+hidden:
+  - muhammadshourov404        # প্রোফাইল repo নিজেই
+  - test-repo
+  - private-notes
+  - old-experiments
+  # নতুন হাইড করতে চাইলে এখানে নাম যোগ করুন ↓
+
+# ❌ এই prefix দিয়ে শুরু যেকোনো repo হাইড হবে
+hidden_prefix:
+  - "test-"
+  - "draft-"
+  - "wip-"
+  - "private-"
+  - "temp-"
+
+# ✅ শুধু এই topics থাকা repo দেখাবে (খালি রাখলে সব দেখাবে)
+required_topics: []
+  # উদাহরণ:
+  # - cybersecurity
+  # - tools
+
+# ❌ এই topics থাকলে repo হাইড হবে
+hidden_topics:
+  - hidden
+  - private
+  - no-display
+
+# ✅ Fork করা repo দেখাবে কিনা
+show_forks: false
+
+# ✅ Archived repo দেখাবে কিনা
+show_archived: false
+
+# ✅ Sort order: stars | updated | created
+sort_by: stars
