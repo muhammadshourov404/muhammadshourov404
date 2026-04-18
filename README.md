@@ -243,7 +243,7 @@ user@vampire-os:~$ ls -la /var/projects/active/
 ### `[ AUTO-SYNCED :: LATEST REPOSITORIES ]`
 
 <!-- PINNED_REPOS_START -->
-> 🤖 *Auto-synced — 2026-04-18 12:42 UTC*
+> 🤖 *Auto-synced — 2026-04-18 18:36 UTC*
 
 <table><tr>
 <td width="50%" valign="top">
@@ -305,9 +305,9 @@ No description.
 </td>
 <td width="50%" valign="top">
 
-**[nurapp](https://github.com/muhammadshourov404/nurapp)**
+**[ludo-game](https://github.com/muhammadshourov404/ludo-game)**
 
-🕌 Islamic App - নামাজ, কোরআন, দোয়া। 
+No description.
 
 ![Stars](https://img.shields.io/badge/⭐-0-00ff41?style=flat-square&labelColor=0d1117)
 ![Forks](https://img.shields.io/badge/🍴-0-00bfff?style=flat-square&labelColor=0d1117)
