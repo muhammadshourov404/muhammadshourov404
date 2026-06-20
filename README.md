@@ -243,7 +243,7 @@ user@vampire-os:~$ ls -la /var/projects/active/
 ### `[ AUTO-SYNCED :: LATEST REPOSITORIES ]`
 
 <!-- PINNED_REPOS_START -->
-> 🤖 *Auto-synced — 2026-06-19 19:27 UTC*
+> 🤖 *Auto-synced — 2026-06-20 02:37 UTC*
 
 <table><tr>
 <td width="50%" valign="top">
@@ -305,13 +305,13 @@ No description.
 </td>
 <td width="50%" valign="top">
 
-**[ludo-game](https://github.com/muhammadshourov404/ludo-game)**
+**[Finora](https://github.com/muhammadshourov404/Finora)**
 
 No description.
 
 ![Stars](https://img.shields.io/badge/⭐-0-00ff41?style=flat-square&labelColor=0d1117)
 ![Forks](https://img.shields.io/badge/🍴-0-00bfff?style=flat-square&labelColor=0d1117)
-![Lang](https://img.shields.io/badge/Lang-JavaScript-ffffff?style=flat-square&labelColor=0d1117)
+![Lang](https://img.shields.io/badge/Lang-N/A-ffffff?style=flat-square&labelColor=0d1117)
 
 </td>
 </tr></table>
